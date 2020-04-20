@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Ckq\/8"]); }
+
+__d("searchCometTypeaheadODSLogFocusEvent",["requireDeferred"],(function(a,b,c,d,e,f){"use strict";var g=b("requireDeferred")("BanzaiODS");function a(a,b){b===void 0&&(b=!0);if(!b)return;g.onReady(function(b){b.bumpEntityKey(354,a,"focused")})}e.exports=a}),null);
