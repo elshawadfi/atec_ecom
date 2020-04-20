@@ -10,7 +10,7 @@ if(isset($_GET['br_id'])){
     $db = getDbInstance();
       $db->where('id', $cat_id);
 
-$brand_page = $db->getOne('brands');
+$brand_page = $db->getOne('brand');
 
       $db->where('brand_id', $cat_id);
     // Get data to pre-populate the form.
